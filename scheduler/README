@@ -1,0 +1,3 @@
+The scheduler was originally the main module selecting which observing request (OR) to observe. 
+With the implementation of the Conductor this changed and the scheduler will usually have only one OR to select from.
+The scheduler will then check if the OR is executable (star is visible, weather is great, telescope ready etc.) and then execute it.
