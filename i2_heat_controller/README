@@ -1,0 +1,15 @@
+The RS232 interface on the Iodine Heat Controller is not working with telnet do to wrong combination of \n\r I guess. 
+
+Use python and sockets.
+
+Baud rate: 115200
+Data Bits: 8
+Parity:	   None
+Stop Bits: 1
+Flow Ctr:  None
+
+When using the Ethernet to RS232/Serial converter the address is:
+
+IP = 10.12.14.96 	#	moxa16b1.phys.au.dk
+PORT= 4002
+
