@@ -1,0 +1,4 @@
+The Monitor is the backbone of the robotic nature of the observatory.
+It is the main module handling opening and closing of the dome and power on/off the telescope. 
+It is constantly checking a large number of conditions and parameters and will take action if some issues occur or other conditions
+like sunrise is approaching etc. 
