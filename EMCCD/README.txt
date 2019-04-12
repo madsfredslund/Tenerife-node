@@ -21,5 +21,7 @@ client_***_getvalues.py can be used to read some values from the CCD.
 client_***_acquire_threaded.py can be used to start acquisition of images without waiting for the job to end to return.
 client_***_abort_acq.py can be used to abort an acquisition.
 
+Running the client scripts (from the command line) with the option "-h" will print out the different options to provide to the client script and command.
+
 
 ***: "red" or "vis"
